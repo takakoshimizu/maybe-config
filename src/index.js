@@ -54,7 +54,7 @@ function config(config) {
 
   function logKeyError(root, key) {
     if (DEBUG) {
-      console.warn(`Unable to find key ${key} from config object: `,
+      console.warn('Unable to find key ' + key + ' from config object: ',
         root.value());
     }
     return Nothing;
