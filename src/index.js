@@ -67,9 +67,9 @@ function config(config) {
     getInSafe: getInFromRoot,
     getClientSetting: function() { return getClientSetting.apply(null, arguments).value() },
     getClientSettingSafe: getClientSetting,
-    setStore,
-    getFlag,
-    overrideConfig
+    setStore: setStore,
+    getFlag: getFlag,
+    overrideConfig: overrideConfig
   };
 };
 
