@@ -57,7 +57,7 @@ function config(config) {
       console.warn('Unable to find key ' + key + ' from config object: ',
         root.value());
     }
-    return Nothing;
+    return Maybe.Nothing;
   }
 
   return {
