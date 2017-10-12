@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Erich Dalton",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takakoshimizu/maybe-config.git"
+  },
   "license": "MIT",
   "dependencies": {
     "jsmaybe": "^0.3.0"
